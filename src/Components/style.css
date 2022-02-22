@@ -15,7 +15,6 @@
     box-shadow: inset 0 0 5px black;
 }
 .input_box:focus {
-    box-shadow: 0 0 10px 1000px rgb(131, 156, 131);
     outline: none;
 }
 .input_submit {
@@ -39,7 +38,7 @@
 }
 .input_submit:active {
     transform: scale(0.8);
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px rgb(88, 79, 79);
 }
 
 .container {

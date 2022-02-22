@@ -56,9 +56,6 @@ if(destination.droppableId==='TodosList')
     <span className='heading'>Task</span>
     <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd}/>
     <TodoList todos={todos} setTodos={setTodos} completedTodo={completedTodo} setCompletedTodo={setCompletedTodo}/>
-    {/* {todos.map((t)=>(
-      <li>{t.todo}</li>
-    ))} */}
     </div>
     </DragDropContext>
   );
