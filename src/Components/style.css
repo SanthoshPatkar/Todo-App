@@ -1,6 +1,6 @@
 .input {
     display: flex;
-    width: 90%;
+    width: 85%;
     position: relative;
     align-items: center;
 }
@@ -43,7 +43,7 @@
 
 .container {
     display: flex;
-    width:95%;
+    width:80%;
     margin-top: 10px;
     justify-content: space-between;
     align-items: flex-start;
@@ -51,15 +51,16 @@
 .todos {
     display: flex;
     width: 47%;
-    margin: 0 2px;
+    margin: 0 0.5%;
     flex-direction: column;
     padding: 15px;
     border-radius: 5px;
-    background-color: rgb(41, 196, 196);
+    background-color: red;
 }
 .todos_heading {
     font-size: 30px;
     color: white;
+    font-family: cursive;
 }
 .todo_single {
     display: flex;
@@ -104,5 +105,5 @@
     }
 }
 .remove {
-    background-color: red;
+    background-color: green;
 }
